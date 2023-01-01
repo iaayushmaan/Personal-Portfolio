@@ -52,7 +52,7 @@
 }
 .home {
   display: flex;
-  background: url("glenn-carstens-peters-P1qyEf1g0HU-unsplash-scaled.jpg")
+  background: url("assets/glenn-carstens-peters-P1qyEf1g0HU-unsplash-scaled.jpg")
     no-repeat center;
   height: 100vh;
   color: #fff;
@@ -106,7 +106,7 @@
 .about{
     display: flex;
     flex-direction: row;
-    background-image: url("bgimg.webp");
+    background-image: url("assets/bgimg.webp");
     background-repeat: no-repeat;
     background-position: 100%;
 }
@@ -148,7 +148,7 @@
   margin-bottom: 20px;
 }
 .myskills{
-  background-image: url("bg3.jpg");
+  background-image: url("assets/bg3.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -172,9 +172,9 @@
   transform: scale(1.05);
 }
 .projects{
-  background-image: url("bg4.jpg");
+  background-image: url("assets/bg4.jpg");
   background-repeat: no-repeat;
-  background-size: 103%;
+  background-size: 100%;
 }
 .projecttxt{
   font-family: "Ubuntu", sans-serif;
@@ -231,7 +231,7 @@ h2{
   padding: 20px 0px;
 }
 .contact{
-  background-image: url("bg5.jpg");
+  background-image: url("assets/bg5.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -295,7 +295,7 @@ input[type="submit"]:hover{
   padding: 20px 0px;  
 }
 .social{
-  background-image: url("bg6.png");
+  background-image: url("assets/bg6.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-x: center;
@@ -442,6 +442,9 @@ input[type="submit"]:hover{
 .projecttxt{
   font-size: 1.5rem;
   padding: 8px 0;
+}
+.projects{
+  background-size: 107%;
 }
 .prcontainer{
   padding: 0 0;
